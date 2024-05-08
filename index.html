@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="text-center bg-yellow-200">
+    <div class="slot w-11/12 h-96 overflow-hidden mx-auto mt-24 bg-blue-100 rounded-lg shadow-lg">
+        <div id="slot-screen" class="relative h-96 overflow-hidden">
+            <ul class="reels absolute top-0 left-0 w-1/3">
+                <li class="reel"><img src="./images/1.png" alt=""></li>
+                <li class="reel"><img src="./images/2.png" alt=""></li>
+                <li class="reel"><img src="./images/3.png" alt=""></li>
+                <li class="reel"><img src="./images/4.png" alt=""></li>
+                <li class="reel"><img src="./images/5.png" alt=""></li>
+                <li class="reel"><img src="./images/6.png" alt=""></li>
+                <li class="reel"><img src="./images/7.png" alt=""></li>
+                <li class="reel"><img src="./images/8.png" alt=""></li>
+                <li class="reel"><img src="./images/9.png" alt=""></li>
+                <li class="reel"><img src="./images/10.png" alt=""></li>
+            </ul>
+            <ul class="reels absolute top-0 left-1/3 w-1/3">
+                <li class="reel"><img src="./images/1.png" alt=""></li>
+                <li class="reel"><img src="./images/2.png" alt=""></li>
+                <li class="reel"><img src="./images/3.png" alt=""></li>
+                <li class="reel"><img src="./images/4.png" alt=""></li>
+                <li class="reel"><img src="./images/5.png" alt=""></li>
+                <li class="reel"><img src="./images/6.png" alt=""></li>
+                <li class="reel"><img src="./images/7.png" alt=""></li>
+                <li class="reel"><img src="./images/8.png" alt=""></li>
+                <li class="reel"><img src="./images/9.png" alt=""></li>
+                <li class="reel"><img src="./images/10.png" alt=""></li>
+            </ul>
+            <ul class="reels absolute top-0 right-0 w-1/3">
+                <li class="reel"><img src="./images/1.png" alt=""></li>
+                <li class="reel"><img src="./images/2.png" alt=""></li>
+                <li class="reel"><img src="./images/3.png" alt=""></li>
+                <li class="reel"><img src="./images/4.png" alt=""></li>
+                <li class="reel"><img src="./images/5.png" alt=""></li>
+                <li class="reel"><img src="./images/6.png" alt=""></li>
+                <li class="reel"><img src="./images/7.png" alt=""></li>
+                <li class="reel"><img src="./images/8.png" alt=""></li>
+                <li class="reel"><img src="./images/9.png" alt=""></li>
+                <li class="reel"><img src="./images/10.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <button type="button" class="stop-btn inline-block px-16 py-14 m-8 bg-red-600 rounded-full shadow-lg hover:bg-green-500" data-val="0" disabled></button>
+    <button type="button" class="stop-btn inline-block px-16 py-14 m-8 bg-red-600 rounded-full shadow-lg hover:bg-green-500" data-val="1" disabled></button>
+    <button type="button" class="stop-btn inline-block px-16 py-14 m-8 bg-red-600 rounded-full shadow-lg hover:bg-green-500" data-val="2" disabled></button>
+    <div>
+        <button id="start-btn" class="inline-block px-24 py-10 bg-green-500 border-8 border-green-900 text-xl font-bold mb-8 hover:bg-green-600 focus:outline-none">Start!</button>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</html>
